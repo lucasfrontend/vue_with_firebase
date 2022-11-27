@@ -31,18 +31,19 @@ export default {
 </script>
 
 <style lang="scss">
+*,*:before,*:after{
+  box-sizing: border-box;
+} 
+
 body {
-  background-color: #2c3e50;
-  color: #fff;
+  margin: 0px;
+  background-color: #f7f7f7;
+  color: rgb(44, 44, 44);
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-}
-
-a {
-  color: inherit;
 }
 </style>
